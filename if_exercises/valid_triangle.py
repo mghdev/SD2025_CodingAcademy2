@@ -17,7 +17,7 @@ def main():
     assert isValidTriangle(1,1,1), "isValidTriangle failed test with a = 1, b = 1, c = 1"
     assert isValidTriangle(2,4,9) == False, "isValidTriangle failed test with a = 2, b = 4, c = 9"
     assert isValidTriangle(9,4,2) == False, "isValidTriangle failed test with a = 9, b = 4, c = 2"
-    assert isValidTriangle(4.0,6.6,2.5) == False, "isValidTriangle failed test with a = 4, b = 9, c = 2"
+    assert isValidTriangle(4,9,2) == False, "isValidTriangle failed test with a = 4, b = 9, c = 2"
     assert isValidTriangle(2,3,5) == False, "isValidTriangle failed test with a = 2, b = 3, c = 5"
     print("Passed all automated tests.")
 
